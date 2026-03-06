@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leafora Indian Traders</title>
+  <style>
+    :root{
+      --brand-green:#5c931d;
+      --text-dark:#111;
+      --white:#fff;
+    }
+
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background:#ffffff;
+      color:#111;
+    }
+
+    /* Top header like reference */
+    .topbar{
+      background:#fff;
+      height:122px;
+      position:relative;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-bottom:1px solid #f0f0f0;
+    }
+
+    .logo-wrap{
+      text-align:center;
+      line-height:1.05;
+    }
+
+    .logo-wrap img{
+      width:74px;
+      height:74px;
+      object-fit:contain;
+      display:block;
+      margin:0 auto 6px auto;
+    }
+
+    .brand-line{
+      font-weight:800;
+      font-size:16px;
+      letter-spacing:0.2px;
+    }
+
+    .tagline{
+      font-size:11px;
+      letter-spacing:2px;
+      color:#3d7f16;
+      margin-top:3px;
+      font-weight:700;
+    }
+
+    .menu-btn{
+      position:absolute;
+      right:18px;
+      top:50%;
+      transform:translateY(-50%);
+      font-size:30px;
+      font-weight:800;
+      color:#111;
+      line-height:1;
+      user-select:none;
+    }
+
+    /* Hero image block */
+    .hero img{
+      width:100%;
+      height:auto;
+      display:block;
+      object-fit:cover;
+    }
+
+    /* Green text block */
+    .green-block{
+      background:var(--brand-green);
+      color:#fff;
+      padding:34px 24px 30px;
+    }
+
+    .green-inner{
+      max-width:900px;
+      margin:0 auto;
+    }
+
+    .green-block h1{
+      font-size:30px;
+      line-height:1.22;
+      font-weight:800;
+      margin-bottom:18px;
+    }
+
+    .lead{
+      font-size:21px;
+      line-height:1.45;
+      margin-bottom:20px;
+      color:#f5f8ef;
+    }
+
+    .desc{
+      font-size:17px;
+      line-height:1.7;
+      color:#edf3e5;
+      margin-bottom:28px;
+    }
+
+    .feature{
+      display:flex;
+      gap:14px;
+      align-items:flex-start;
+      margin-top:8px;
+    }
+
+    .feature-icon{
+      font-size:38px;
+      line-height:1;
+      margin-top:2px;
+    }
+
+    .feature h2{
+      font-size:48px;
+      line-height:1.08;
+      font-weight:800;
+      margin-bottom:12px;
+      color:#fff;
+    }
+
+    .feature p{
+      font-size:16px;
+      line-height:1.8;
+      color:#eef4e7;
+    }
+
+    .feature p a{
+      color:#fff;
+      text-decoration:underline;
+    }
+
+    /* Mobile tweaks for similar screenshot feel */
+    @media (max-width:768px){
+      .topbar{height:114px}
+      .logo-wrap img{width:68px;height:68px}
+      .brand-line{font-size:15px}
+      .menu-btn{right:14px;font-size:30px}
+
+      .green-block{padding:30px 18px 26px}
+      .green-block h1{font-size:40px}
+      .lead{font-size:18px}
+      .desc{font-size:14px;line-height:1.65}
+      .feature h2{font-size:46px}
+      .feature p{font-size:14px;line-height:1.7}
+      .feature-icon{font-size:32px}
+    }
+
+    @media (max-width:430px){
+      .green-block h1{font-size:53px}
+      .feature h2{font-size:56px}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="topbar">
+    <div class="logo-wrap">
+      <img src="logo.png" alt="Leafora Indian Traders Logo" />
+      <div class="brand-line">LEAFORA INDIAN TRADERS</div>
+      <div class="tagline">FOR BETTER TOMORROW</div>
+    </div>
+    <div class="menu-btn">≡</div>
+  </header>
+
+  <!-- HERO IMAGE -->
+  <section class="hero">
+    <img src="hero-banner.jpg" alt="Areca leaf plates banner" />
+  </section>
+
+  <!-- GREEN CONTENT SECTION -->
+  <section class="green-block">
+    <div class="green-inner">
+      <h1>Leafora Indian Traders Areca Palm Leaf Plates Manufacturer in India</h1>
+
+      <p class="lead">
+        Are you looking for a reliable exporter of high-quality areca palm leaf plates in bulk?
+        Then you’re in the right place.
+      </p>
+
+      <p class="desc">
+        <a href="#" style="color:#fff;text-decoration:underline;">Leafora Indian Traders</a> is your one-stop-shop for all things palm leaf.
+        You may order areca palm leaf plates, bowls, trays in various shapes and sizes.
+        We’re committed to deliver you the best palm leaf plates at wholesale prices.
+      </p>
+
+      <div class="feature">
+        <div class="feature-icon">🌿</div>
+        <div>
+          <h2>Eco-friendly Palm Leaf Plates</h2>
+          <p>
+            We wash the palm leaves before heat-pressing them into different
+            <a href="#">shapes</a>. No chemicals, waxes, or additives are used during the production process.
+            This way your customers receive the most eco-friendly plate in their hands.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
